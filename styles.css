@@ -1,0 +1,182 @@
+.calltoaction{
+    height: 35vh;
+    background-image: url("0.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.calltoaction a{
+    background-color: #66694F;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis: 33.3%;
+    min-width: 250px;
+    text-align: center;
+}
+.card img{
+    max-width: 90%;
+}
+.card h3{
+    margin: 5% 0 5%;
+    font-size: 1.3em;
+}
+.map h2{
+    text-align: center;
+    font-size: 2.2em;
+    width: 80vw;
+    margin: 3% auto 3% auto;
+    border-bottom: 2px solid rgb(105, 105, 105);
+    letter-spacing: 4px;
+}
+#map {
+	height: 60vh;
+    width: 80vw;
+    margin: 0 auto 0 auto;
+    border: solid rgb(121, 121, 121) 1px;
+    border-radius: 20px;
+}
+.buy{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.buy i{
+    font-size: 3.5em;
+}
+.buy h3{ 
+    margin-bottom: 1em;
+}
+.buy span{
+    display: block;
+}
+.buy a{
+    padding: 5px;
+    font-weight: bold;
+    background-color: #66694F;
+    color: white;
+    border-radius: 10px;
+}
+.offers{
+    width: 70vw;
+    padding: 4% 0 4% 0;
+    margin: 5% auto 0 auto;
+    text-align: center;
+    border: rgb(196, 196, 196) 2px solid;
+    border-radius: 20px;
+}
+.offers h3, .offers h4 {
+    margin-bottom: 5%;
+}
+.offers h3{
+    font-size: 3em;
+    letter-spacing: 7px;
+}
+.inputText{
+    width: 80%;
+    margin: 0 auto 2% auto;
+    padding: 1%;
+    border: rgb(119, 119, 119) 1.5px solid;
+    border-radius: 50px;
+}
+#submitButton{
+    width: 22%;
+    padding: 5px;
+    border: none;
+    margin-top: 2%;
+    font-weight: bold;
+    background-color: #66694F;
+    color: white;
+    border-radius: 10px;
+    font-size: 1em;
+}
+.customSelect{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+#countries{
+    padding: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    border: rgb(119, 119, 119) 1.5px solid;
+    border-radius: 50px;
+}
+footer{
+    display: flex;
+    background-color: rgba(212, 212, 212, 0.99);
+    padding: 2%;
+    margin-top: 5%;
+    border-top: rgb(167, 167, 167) 1px solid;
+}
+.footer{
+    flex-basis: 33.3%;
+    text-align: center;
+}
+.footer a{
+    color: black;
+    line-height: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+.footer h3{
+    margin: 1em 0 1em 0;
+    font-weight: bold;
+}
+.footer i{
+    font-size: 2em;
+    color: black;
+}
+
+@media(max-width: 600px){
+    .calltoaction a{
+        font-size: 1em;
+    }
+    .requestEmail{
+        width: 100%;
+        border-radius: 0;
+    }
+    .buy i{
+        font-size: 2.4em;
+    }
+    .buy h3{
+        font-size: 1em;
+    }
+    .buy a{
+        padding: 2px;
+        font-size: 0.9em;
+    }
+    .offers{
+        width: 90vw;
+    }
+    .offers h3{
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+    #submitButton{
+        font-size: 0.9em;
+    }
+}
+@media(max-width: 400px){
+    footer{
+        flex-direction: column;
+    }
+    .socialMedia li{
+        display: inline;
+    }
+    .map h2{
+        font-size: 1.7em;
+        width: 70vw;
+    }
+}

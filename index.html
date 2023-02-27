@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BClothes</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar"> 
+                <li class="logo">B-Clothes</li>
+                <li class="btn">&#9776;</li>
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items"><a href="#stores">Stores</a></li>
+                <li class="items"><a href="#buy">Buy</a></li>
+                <li class="items"><a href="#offers">Offers</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="calltoaction">
+        <a href="./store/store.html">Order</a>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <h3>Beautiful Clothes</h3>
+            <img src="1.png" alt="clothes">
+        </div>
+        <div class="card">
+            <h3>Online Shopping</h3>
+            <img src="2.png" alt="girl with a credit card">
+        </div>
+        <div class="card">
+            <h3>Open all day</h3>
+            <img src="3.png" alt="door">
+        </div>
+    </div>
+    <div id="stores" class="map">
+        <h2>Nearby stores</h2>
+        <div id="map"></div>
+    </div>
+    <div class="buy">
+        <div>
+            <i  id="buy" class="fa fa-whatsapp"></i>
+            <h3>Buy via <span>whatsapp</span></h3>
+            <a href="https://wa.me/012196312" target= "_blank" rel="noopener noreferrer">Buy now</a>  <!-- fake number -->
+        </div>
+        <div>
+            <i class="fa fa-credit-card"></i>
+            <h3>Visit our <span>online store</span> </h3>
+            <a href="store/store.html" target= "_blank" rel="noopener noreferrer">Visit now</a>
+        </div>
+        <div>
+            <i class="fa fa-mobile-phone"></i>
+            <h3>Contact a <span>designer</span></h3>
+            <a href="https://wa.me/592196312" target= "_blank" rel="noopener noreferrer">Contact now</a>
+        </div>
+    </div>
+    <div class="offers" id="offers">
+        <form action="">
+            <h3>Offers</h3>
+            <h4>We are going to send you emails with the newest offers in our stores<h4>
+            <input class="inputText" type="text" id="name" name="name"placeholder="First name" required>
+            <input class="inputText" type="text" id="lastname" name="lastname"placeholder="Last name" required>
+            <input class="inputText" type="email" id="email" name="email"placeholder="Email" required>
+            <div class="customSelect">
+                <select id="countries">
+                    <option value="empty">Select your country</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Argentina">Argentina</option>
+                </select>
+            </div>
+            <input id="submitButton" type="submit" value="submit">
+        </form>
+    </div>
+    <footer>
+        <div class="footer socialMedia">
+            <ul>
+                <li><h3>Follow us</h3></li>
+                <li><a href="https://www.facebook.com/thispagedoesnotexist6" target= "_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="https://www.twitter.com/thispagedoesnotexist6" target= "_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com/thischaneldoesnotexist" target= "_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer getInTouch">
+            <ul>
+                <li><h3>Get in touch</h3></li>
+                <li><a href="mailto:"bclothes@gmail.com">bclothes@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="footer information">
+            <ul>
+                <li><h3>Information</h3></li>
+                <li><a href="/clothes/information/information.html#complaints">Complaints/suggestions</a></li>
+                <li><a href="/clothes/information/information.html#job">Work with us</a></li>
+                <li><a href="/clothes/information/information.html#q&a">Q&A</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="navbar.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTHWfUKKzX_PqOYeYfxjRp7-ERnvvRbu8&callback=startMap"
+    type="text/javascript"></script>
+    <script src="script.js"></script>
+</body>
+</html>

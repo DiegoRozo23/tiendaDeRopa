@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/clothes/navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>BClothes store</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar"> 
+                <li class="logo">B-Clothes</li>
+                <li class="btn">&#9776;</li>
+                <li class="items"><a href="/clothes/index.html">Home</a></li>
+                <li class="items"><a href="/clothes/index.html#stores">Stores</a></li>
+                <li class="items"><a href="/clothes/index.html#buy">Buy</a></li>
+                <li class="items"><a href="/clothes/index.html#offers">Offers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gliderContainer">
+        <button class="glider-prev"><i class="fa fa-chevron-left"></i></button>
+        <div class="glider">
+            <div class="first card">
+                <img src="shirt.jpg" alt="shirt">
+                <h3>Shirt</h3>
+                <h4>150</h4>
+                <button class="add">Add</button>
+                <button class="delete" disabled>Delete</button>
+            </div>
+            <div class="second card">
+                <img src="jeans.jpg" alt="jeans">
+                <h3>Jeans</h3>
+                <h4>170</h4>
+                <button class="add">Add</button>
+                <button class="delete" disabled>Delete</button>
+            </div>
+            <div class="third card">
+                <img src="jacket.jpg" alt="jacket">
+                <h3>Jacket</h3>
+                <h4>217</h4>
+                <button class="add">Add</button>
+                <button class="delete" disabled>Delete</button>
+            </div>
+            <div class="fourth card">
+                <img src="sneakers.jpg" alt="jacket">
+                <h3>Sneakers</h3>
+                <h4>817</h4>
+                <button class="add">Add</button>
+                <button class="delete" disabled>Delete</button>
+            </div>
+            <div class="fifth card">
+                <img src="suit.jpg" alt="jacket">
+                <h3>Suit</h3>
+                <h4>817</h4>
+                <button class="add">Add</button>
+                <button class="delete" disabled>Delete</button>
+            </div>
+            <div class="sixth card">
+                <img src="shades.jpg" alt="jacket">
+                <h3>Sun glasses</h3>
+                <h4>817</h4>
+                <button class="add">Add</button>
+                <button class="delete" disabled>Delete</button>
+            </div>
+        </div>
+        <button class="glider-next"><i class="fa fa-chevron-right"></i></button>
+    </div>
+    <div class="shopping">
+        <h2>Shopping car</h2>
+        <div class="table">
+            <h4>Id</h4>
+            <h4>Item</h4>
+            <h4>Amount</h4>
+            <h4>Action</h4>
+            <h4>Total</h4>
+        </div>
+        <div class="tables">
+             <form action=""> 
+        </div>
+                <div class="table">
+                    <h4 class="finalT">0</h4>
+                </div>
+                <button class="submitButton" type="submit">Submit</button>
+            </form> 
+        <template>
+            <div class="table">
+                <h4 class="numberid"></h4>
+                <h4 class="item"></h4>
+                <h4 class="amount">0</h4>
+                <div class="addremove">
+                    <button type="button" class="add">+</button>
+                    <button type="button" class="remove">-</button>
+                </div>
+                <h4 class="total"></h4>
+            </div>
+        </template>
+    </div>
+    <script src="/clothes/navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
